@@ -168,9 +168,11 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgpudataproducer \
     libgsl \
+    libhta_hexagon_runtime \
     libllvm-glnext \
     libllvm-qcom \
     libmdsprpc \
+    libnpu \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -184,6 +186,7 @@ PRODUCT_PACKAGES += \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
+    unnhal-acc-hta \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -324,7 +327,7 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
-    libhta_hexagon_runtime \
+    libhta \
     libhydra_common \
     libidl \
     libizat_client_api \
@@ -417,7 +420,6 @@ PRODUCT_PACKAGES += \
     se_nq_extn_client \
     unnhal-acc-adreno \
     unnhal-acc-common \
-    unnhal-acc-hta \
     unnhal-acc-hvx \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
@@ -602,6 +604,8 @@ PRODUCT_PACKAGES += \
     mlid \
     msm_irqbalance \
     netmgrd \
+    nn_device_test \
+    npu_launcher \
     nv_mac \
     pd-mapper \
     pm-proxy \
