@@ -205,7 +205,6 @@ PRODUCT_PACKAGES += \
     libOmxVpp \
     libOmxWmaDec \
     libacdb-fts \
-    libacdbloader \
     libacdbrtac \
     libadiertac \
     libadm \
