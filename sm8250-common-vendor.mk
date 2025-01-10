@@ -602,7 +602,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    MiuiCamera \
     MiuiScanner \
     PowerOffAlarm \
     QtiTelephonyService \
